@@ -12,15 +12,17 @@ sources[sources=="PKL"] <- "TXT"
 url_deephf <- "https://github.com/izhangcd/DeepHF"
 url_lindel <- "https://github.com/shendurelab/Lindel"
 urls <- c(rep(url_deephf,5), url_lindel)
-titles <- c("DeepHF pretrained model for widtype Cas9",
-            "DeepHF pretrained model for widtype Cas9 (T7 promoter)",
-            "DeepHF pretrained model for widtype Cas9 (U6 promoter)",
-            "DeepHF pretrained model for EspCas9",
-            "DeepHF pretrained model for HFCas9",
-            "Lindel pretrained model weights")
-dess <- paste0(titles, ".")
+dess <- c("DeepHF pretrained model for widtype Cas9.",
+          "DeepHF pretrained model for widtype Cas9 (T7 promoter).",
+          "DeepHF pretrained model for widtype Cas9 (U6 promoter).",
+          "DeepHF pretrained model for EspCas9.",
+          "DeepHF pretrained model for HFCas9.",
+          "Lindel pretrained model weights.")
+titles <- files
 providers <- c(rep("Fudan University", 5), "University of Washington")
-paths <- paste0("crisprScoreData/", files)
+paths1 <- paste0("crisprScoreData/DeepHF/", files[1:5])
+paths2 <- paste0("crisprScoreData/Lindel/", files[6])
+paths  <- c(paths1, paths2)
 
 metadata <- data.frame(Title=titles,
                        Description=dess,

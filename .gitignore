@@ -1,1 +1,2 @@
-inst/extdata/data/*
+inst/scripts/out*
+.DS_Store
