@@ -1,0 +1,44 @@
+<!--
+%\VignetteEngine{knitr}
+%\VignetteIndexEntry{crisprScoreData}
+-->
+
+# Exploring the different data in crisprScoreData
+
+We first load the `crisprScoreData` package:
+
+```{r}
+library(crisprScoreData)
+```
+
+This package contains several pre-trained models for different on-target activity prediction algorithms to be used in the package *crisprScore*.
+
+We can access the file paths of the different pre-trained models directly with named functions:
+
+```{r}
+# For DeepHF model:
+DeepWt.hdf5()
+DeepWt_T7.hdf5()
+DeepWt_U6.hdf5()
+esp_rnn_model.hdf5()
+hf_rnn_model.hdf5()
+
+# For Lindel model:
+Model_weights.pkl()
+```
+
+
+Or we can access them using the *ExperimentHub* interface:
+
+```{r}
+eh <- ExperimentHub()
+query(eh, "ERRXYZ")
+eh[["EHXYZ"]]
+```
+
+For details on the source of these files, and on their construction
+see `?crisprScoreData` and the scripts:
+
+* `inst/scripts/make-metadata.R`
+* `inst/scripts/make-data.Rmd`
+
