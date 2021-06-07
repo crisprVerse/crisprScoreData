@@ -1,2 +1,2 @@
-inst/scripts/out*
+#inst/scripts/out*
 .DS_Store
