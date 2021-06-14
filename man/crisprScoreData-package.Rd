@@ -10,9 +10,9 @@
 \alias{Model_weights.pkl}
 \title{Pretrained models for several crisprScore prediction algorithms}
 \description{
-  Pretrained models for DeepHF and Lindel on-target prediction algorithms
-  for Cas9 gRNA performance to be used by crisprScore package.
-  Data were obtained using the script \code{inst/scripts/make-data.R}.
+    Pretrained models for DeepHF and Lindel on-target prediction algorithms
+    for Cas9 gRNA performance to be used by crisprScore package.
+    Data were obtained using the script \code{inst/scripts/make-data.R}.
 }
 \usage{
 DeepWt.hdf5(metadata=FALSE)
@@ -23,14 +23,14 @@ esp_rnn_model.hdf5(metadata=FALSE)
 Model_weights.pkl(metadata=FALSE)
 }
 \arguments{
-  \item{metadata}{
-    \code{logical} value indicating whether metadata only should be returned
-    or if the resource should be loaded. Default behavior(metadata=FALSE) 
-    loads the data.
-  }
+    \item{metadata}{
+        \code{logical} value indicating whether metadata only should
+        be returned or if the resource should be loaded. Default
+        behavior(metadata=FALSE) loads the data.
+    }
 }
 \examples{
-  DeepWt.hdf5()
+      DeepWt.hdf5()
 }
 \value{These accessor functions return
     characters specifying path of the files}

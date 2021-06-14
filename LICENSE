@@ -1,3 +1,9 @@
 Copyright (c) 2021, Jean-Philippe Fortin
 
 This package is released under CC BY-NC-ND 4.0. 
+
+The data made available through crisprScoreData come from different
+open-source softwares with compatible licenses. 
+
+For DeepHF data: see https://github.com/izhangcd/DeepHF/.
+For Lindel data: https://github.com/shendurelab/Lindel.

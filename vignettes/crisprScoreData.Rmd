@@ -23,9 +23,12 @@ We first load the `crisprScoreData` package:
 library(crisprScoreData)
 ```
 
-This package contains several pre-trained models for different on-target activity prediction algorithms to be used in the package *crisprScore*.
+This package contains several pre-trained models for different
+on-target activity prediction algorithms to be used 
+in the package *crisprScore*.
 
-We can access the file paths of the different pre-trained models directly with named functions:
+We can access the file paths of the different 
+pre-trained models directly with named functions:
 
 ```{r}
 # For DeepHF model:
@@ -53,4 +56,8 @@ see `?crisprScoreData` and the scripts:
 
 * `inst/scripts/make-metadata.R`
 * `inst/scripts/make-data.Rmd`
+
+```{r}
+sessionInfo()
+```
 

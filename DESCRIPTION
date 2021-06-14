@@ -4,9 +4,11 @@ Date: 2021-05-27
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre", "cph")))
-Depends: R (>= 4.0.0),
+Depends: R,
     ExperimentHub,
     ExperimentHubData
+Imports:
+    utils
 Suggests:
     BiocStyle,
     knitr,
@@ -16,7 +18,12 @@ biocViews:
     ExperimentHub,
     Homo_sapiens_Data
 Description:
-   Pre-trained models for the crisprScore package.
+    Provides an interface to access pre-trained models for on-target
+    and off-target gRNA activity prediction algorithms implemented in
+    the crisprScore package. Pre-trained model data are stored in 
+    the ExperimentHub database. Users should consider using
+    the crisprScore package directly to use and load the pre-trained
+    models. 
 License: CC BY-NC-ND 4.0 + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.1
