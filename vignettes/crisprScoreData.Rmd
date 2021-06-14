@@ -1,7 +1,19 @@
-<!--
-%\VignetteEngine{knitr}
-%\VignetteIndexEntry{crisprScoreData}
--->
+---
+title: "crisprScoreData"
+author: 
+- name: Jean-Philippe Fortin
+  affiliation: OMNI Bioinformatics, gRED, Genentech
+  email: fortin946@gmail.com
+date: "`r Sys.Date()`"
+output: 
+  BiocStyle::html_document:
+    toc_float: true
+    number_sections: true
+vignette: >
+  %\VignetteIndexEntry{crisprScoreData}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
 
 # Exploring the different data in crisprScoreData
 
