@@ -44,8 +44,8 @@ Or we can access them using the *ExperimentHub* interface:
 
 ```{r}
 eh <- ExperimentHub()
-query(eh, "ERRXYZ")
-eh[["EHXYZ"]]
+query(eh, "crisprScoreData")
+eh[["EH6127"]]
 ```
 
 For details on the source of these files, and on their construction
