@@ -24,7 +24,7 @@ Description:
     the ExperimentHub database. Users should consider using
     the crisprScore package directly to use and load the pre-trained
     models. 
-License: CC BY-NC-ND 4.0 + file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
