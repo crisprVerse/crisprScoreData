@@ -1,3 +1,3 @@
-#' @import ExperimentHub ExperimentHubData
+#' @import ExperimentHub
 #' @importFrom utils read.csv
 NULL

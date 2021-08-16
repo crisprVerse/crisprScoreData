@@ -1,16 +1,16 @@
 Package: crisprScoreData
-Version: 0.99.3
-Date: 2021-05-27
+Version: 0.99.4
+Date: 2021-08-16
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre", "cph")))
 Depends:
-    ExperimentHub,
-    ExperimentHubData
+    ExperimentHub
 Imports:
     utils
 Suggests:
     BiocStyle,
+    crisprScore,
     knitr,
     rmarkdown,
     testthat
@@ -28,3 +28,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
+BugReports: https://github.com/Jfortin1/crisprScoreData
+URL: https://github.com/Jfortin1/crisprScoreData/issues
