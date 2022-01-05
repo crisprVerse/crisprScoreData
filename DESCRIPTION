@@ -1,6 +1,6 @@
 Package: crisprScoreData
-Version: 0.99.7
-Date: 2021-08-16
+Version: 0.99.9
+Date: 2022-01-05
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre", "cph")))
@@ -10,7 +10,6 @@ Imports:
     utils
 Suggests:
     BiocStyle,
-    crisprScore,
     knitr,
     rmarkdown,
     testthat
