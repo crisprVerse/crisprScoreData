@@ -29,3 +29,12 @@ for (i in 1:length(files)){
     cmd <- paste0("wget ", gitdir, files[i])
     system(cmd)
 }
+
+# Weissman pretrained models were 
+# computed by Piru.
+
+
+
+
+
+
