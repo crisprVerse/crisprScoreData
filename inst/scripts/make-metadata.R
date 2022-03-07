@@ -7,18 +7,22 @@ files <- c("DeepWt.hdf5",
            "Model_weights.pkl",
            "CRISPRa_model.pkl",
            "CRISPRi_model.pkl",
+           "crispria_dnase_human_K562_hg38.bigWig",
+           "crispria_faire_human_K562_hg38.bigWig",
+           "crispria_mnase_human_K562_hg38.bigWig",
            "RFcombined.rds")
 nfiles <- length(files)
 sources <- gsub("\\.","",str_extract(files, "\\.+.*"))
 sources <- toupper(sources)
 sources[sources=="PKL"] <- "TXT"
+sources[sources=="BIGWIG"] <- "BigWig"
 url_deephf   <- "https://github.com/izhangcd/DeepHF"
 url_lindel   <- "https://github.com/shendurelab/Lindel"
 url_weissman <- "https://github.com/mhorlbeck/CRISPRiaDesign"
 url_casrxrf  <- "https://gitlab.com/sanjanalab/cas13/"
 urls <- c(rep(url_deephf,5),
           url_lindel,
-          rep(url_weissman,2),
+          rep(url_weissman,5),
           url_casrxrf)
 dess <- c("DeepHF pretrained model for widtype Cas9.",
           "DeepHF pretrained model for widtype Cas9 (T7 promoter).",
@@ -28,16 +32,19 @@ dess <- c("DeepHF pretrained model for widtype Cas9.",
           "Lindel pretrained model weights.",
           "Weissman pretrained model for CRISPRa.",
           "Weissman pretrained model for CRISPRi.",
+          "Processed DNase-seq data for K562 lifted to hg38",
+          "Processed FAIRE-seq data for K562 lifted to hg38",
+          "Processed MNase-seq data for K562 lifted to hg38",
           "CasRx-RF pretrained random forest model for CasRx.")
 titles <- files
 providers <- c(rep("Fudan University", 5),
                "University of Washington",
-               rep("UCSF", 2),
+               rep("UCSF", 5),
                "New York Genome Center")
 paths1 <- paste0("crisprScoreData/DeepHF/", files[1:5])
 paths2 <- paste0("crisprScoreData/Lindel/", files[6])
-paths3 <- paste0("crisprScoreData/Weissman/", files[7:8])
-paths4 <- paste0("crisprScoreData/CasRxRF/", files[9])
+paths3 <- paste0("crisprScoreData/Weissman/", files[7:11])
+paths4 <- paste0("crisprScoreData/CasRxRF/", files[12])
 paths  <- c(paths1, paths2, paths3, paths4)
 
 metadata <- data.frame(Title=titles,
