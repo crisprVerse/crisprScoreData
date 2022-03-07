@@ -1,6 +1,6 @@
 Package: crisprScoreData
-Version: 0.99.10
-Date: 2022-01-18
+Version: 0.99.11
+Date: 2022-03-07
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre", "cph")))
@@ -25,7 +25,7 @@ Description:
     models. 
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 BugReports: https://github.com/Jfortin1/crisprScoreData
 URL: https://github.com/Jfortin1/crisprScoreData/issues

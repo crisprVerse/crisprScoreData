@@ -35,6 +35,16 @@ for (i in 1:length(files)){
 
 
 
+# Getting random forest model for Cas13d
+for (i in 1:length(files)){
+    gitdir <- "https://raw.githubusercontent.com/shendurelab/Lindel/master/Lindel/"
+    cmd <- paste0("wget ", gitdir, files[i])
+    system(cmd)
+}
+
+
+
+
 
 
 
