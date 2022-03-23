@@ -6,7 +6,6 @@
                               stringsAsFactors=FALSE)$Title
     notReady <- c("CRISPRa_model.pkl",
                   "CRISPRi_model.pkl",
-                  "RFcombined.rds",
                   "crispria_dnase_human_K562_hg38.bigWig",
                   "crispria_mnase_human_K562_hg38.bigWig",
                   "crispria_faire_human_K562_hg38.bigWig")
