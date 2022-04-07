@@ -8,6 +8,9 @@
 \alias{hf_rnn_model.hdf5}
 \alias{esp_rnn_model.hdf5}
 \alias{Model_weights.pkl}
+\alias{CRISPRa_model.pkl}
+\alias{CRISPRi_model.pkl}
+\alias{RFcombined.rds}
 \title{Pretrained models for several crisprScore prediction algorithms}
 \description{
     Pretrained models for DeepHF and Lindel on-target prediction algorithms
@@ -21,6 +24,9 @@ DeepWt_U6.hdf5(metadata=FALSE)
 hf_rnn_model.hdf5(metadata=FALSE)
 esp_rnn_model.hdf5(metadata=FALSE)
 Model_weights.pkl(metadata=FALSE)
+CRISPRa_model.pkl(metadata=FALSE)
+CRISPRi_model.pkl(metadata=FALSE)
+RFcombined.rds(metadata=FALSE)
 }
 \arguments{
     \item{metadata}{
