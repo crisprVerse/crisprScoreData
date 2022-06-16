@@ -1,12 +1,13 @@
 Package: crisprScoreData
-Version: 1.1.1
-Date: 2022-04-06
+Version: 1.1.2
+Date: 2022-06-16
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre", "cph")))
 Depends:
     ExperimentHub
 Imports:
+    AnnotationHub,
     utils
 Suggests:
     BiocStyle,

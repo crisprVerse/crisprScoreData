@@ -1,3 +1,4 @@
+#' @importFrom AnnotationHub query
 .onLoad <- function(libname, pkgname) {
   objs <- read.csv(system.file("extdata", "metadata.csv",
                                 package="crisprScoreData"),
