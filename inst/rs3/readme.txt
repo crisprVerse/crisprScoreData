@@ -1,0 +1,1 @@
+Data coming from rs3 python package; LICENSE file copied here (Apache 2.0)

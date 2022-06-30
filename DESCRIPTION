@@ -1,5 +1,5 @@
 Package: crisprScoreData
-Version: 1.1.2
+Version: 1.1.3
 Date: 2022-06-16
 Title: Pre-trained models for the crisprScore package
 Authors@R: c(
