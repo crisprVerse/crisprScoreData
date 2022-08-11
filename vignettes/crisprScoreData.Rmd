@@ -2,7 +2,7 @@
 title: "crisprScoreData"
 author: 
 - name: Jean-Philippe Fortin
-  affiliation: OMNI Bioinformatics, gRED, Genentech
+  affiliation: Data Science and Statistical Computing, gRED, Genentech
   email: fortin946@gmail.com
 date: "`r Sys.Date()`"
 output: 
@@ -14,6 +14,18 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
+
+
+# Installation from Bioconductor
+
+`crisprScoreData` can be installed from Bioconductor using the following
+commands in a fresh R session:
+
+```{r, eval=FALSE}
+install.packages("BiocManager")
+BiocManager::install("crisprScoreData")
+```
+
 
 # Exploring the different data in crisprScoreData
 
