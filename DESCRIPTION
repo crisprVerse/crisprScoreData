@@ -28,5 +28,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
-BugReports: https://github.com/Jfortin1/crisprScoreData
-URL: https://github.com/Jfortin1/crisprScoreData/issues
+BugReports: https://github.com/crisprVerse/crisprScoreData
+URL: https://github.com/crisprVerse/crisprScoreData/issues
