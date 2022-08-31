@@ -1,19 +1,15 @@
 ---
 title: "crisprScoreData"
-author: 
-- name: Jean-Philippe Fortin
-  affiliation: Data Science and Statistical Computing, gRED, Genentech
-  email: fortin946@gmail.com
-date: "`r Sys.Date()`"
 output: 
-  BiocStyle::html_document:
-    toc_float: true
-    number_sections: true
-vignette: >
-  %\VignetteIndexEntry{crisprScoreData}
-  %\VignetteEngine{knitr::rmarkdown}
-  \usepackage[utf8]{inputenc}
+  github_document:
+    toc: true
 ---
+
+```{r, echo=FALSE, results="hide"}
+options("knitr.graphics.auto_pdf"=TRUE)
+```
+
+Authors: Jean-Philippe Fortin
 
 
 # Installation from Bioconductor
